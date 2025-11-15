@@ -34,8 +34,10 @@ while True:
             print("Insufficient balance.")
 
     elif choice == "4":
-        if all(digit.isdigit() for digit in pin):
-            print("PIN is correct (only digits)") 
+        current = input("Enter your current PIN: ")
+        if current == pin:
+            if all(digit.isdigit() for digit in pin):
+                print("PIN is correct (only digits)") 
         else:
             print("PIN contains invalid characters")
 
