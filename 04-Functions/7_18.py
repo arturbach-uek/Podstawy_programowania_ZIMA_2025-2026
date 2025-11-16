@@ -1,1 +1,2 @@
-# Plik z zadaniem
+def remove_spaces(sentence):
+    return sentence.replace(" ", "")
