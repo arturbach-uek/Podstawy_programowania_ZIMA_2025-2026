@@ -1,2 +1,3 @@
-# Plik 3_14.py
-
+t = ('computation',)
+print(t)
+print("Type:", type(t))
